@@ -1,7 +1,6 @@
-*.class
-/target/
-.settings
-.classpath
-target/
 .idea/
 *.class
+/target/*
+.settings/*
+.classpath
+target/*

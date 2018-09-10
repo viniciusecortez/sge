@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.LinkedList;
 
+
 import br.edu.ifsp.spo.lg2a2.sge.entidades.Aluno;
 import br.edu.ifsp.spo.lg2a2.sge.entidades.Curso;
 import br.edu.ifsp.spo.lg2a2.sge.entidades.Turma;
@@ -12,31 +13,66 @@ import br.edu.ifsp.spo.lg2a2.sge.entidades.Turma;
 public class CursosRepository {
 	private static Collection<Curso> cursos;
 	public Curso buscarPorCodigo(String codigo) {
-		return null;
-	}
-	public CursosRepository(){
-	    if(cursos == null){
+		for(Curso c: cursos){
+		    if(c.getCodigoCurso() == codigo){
+		        return c;
+            }
 
-            Curso [] todos = {new Curso("Analise e Desenvolvimento de Sistemas", "adsnewgrade", "Tecnologia", "Graduação"),
-                    new Curso("Sistemas Eletricos", "sisEletric", "Tecnologia", "Graduação"),
-                    new Curso("Engenharia Civil", "engCivil", "Bacharel", "Graduação"),
-                    /*Terminar*/};
-            cursos = new ArrayList<Curso>(Arrays.asList(todos));
         }
-
+        return null;
 	}
-	public Collection<Turma> buscarTurmas(String codigoCurso){
-		return null;
+	public CursosRepository(Curso[] cursos){
+	    if(this.cursos == null){
+            this.cursos = new ArrayList<Curso>(Arrays.asList(cursos));
+        }else{
+	        for(Curso o : cursos){
+	            this.cursos.add(o);
+            } } }
+
+    public CursosRepository(){}
+	public Turma buscarTurma(String codigoCurso, String codigoDaTurma){
+	    for(Curso o: cursos){
+	        if(o.getCodigoCurso() == codigoCurso){
+	            return o.buscarTurma(codigoDaTurma);
+            }
+        }
+        return null;
 	}
 	
 	public Collection<Aluno> buscarAlunos(String codigoCurso){
+		Collection<Aluno> alunosDoCurso ;
+		for(Curso o: cursos){
+		    if(o.getCodigoCurso() == codigoCurso){
+		        return o.buscarTurma();
+            }
+        }
 		return null;
 	}
 	
 	public boolean existeAlunoNoCurso(String cpf) {
-		return false;
+	    Collection<Aluno> alunos = new ArrayList<>();
+        for(Curso curso : cursos){
+            alunos.addAll(curso.buscarTurma());
+        }
+		for(Aluno aluno : alunos){
+		    if(aluno.getCpf() == cpf){
+		        return true;
+            }
+        }
+        return false;
 	}
 	
-	public void adicionarAluno(Aluno aluno) {
+	public void adicionarAluno(Aluno aluno, String idTurma, String idCurso) {
+	    for(Curso curso: cursos){
+	        if(curso.getCodigoCurso() == idCurso){
+	            for(Turma turma : curso.getTurmas()){
+	                if(turma.getIdTurma() == idTurma){
+	                    turma.addAluno(aluno);
+	                    return ;
+                    }
+                }
+            }
+	    }
+
 	}
 }
