@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff0a2b51-60bd-4ca0-a5f5-e77fc363eaa7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/poom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/entidades/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/entidades/Curso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/entidades/Cursos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/repositories/CursosRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/repositories/CursosRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/edu/ifsp/spo/lg2a2/sge/repositories/CursoRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/edu/ifsp/spo/lg2a2/sge/repositories/CursoRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/ifsp/spo/lg2a2/sge/entidades/Curso.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/ifsp/spo/lg2a2/sge/entidades/Curso.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/ifsp/spo/lg2a2/sge/repositories/CursosRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/ifsp/spo/lg2a2/sge/repositories/CursosRepository.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,25 +34,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="4" />
-          <entry key="java" value="30" />
+          <entry key="java" value="35" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="30" />
+          <entry key="JAVA" value="35" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5116" />
+          <entry key="java" value="5268" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5116" />
+          <entry key="JAVA" value="5268" />
         </counts>
       </usages-collector>
     </session>
@@ -56,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/entidades/Curso.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="157">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#580#581#0" expanded="true" />
@@ -81,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/entidades/Turma.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="204">
               <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -92,13 +98,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/edu/ifsp/spo/lg2a2/sge/repositories/CursoRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="208">
+              <caret line="40" column="50" lean-forward="true" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/repositories/CursosRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#buscarAlunos#0;class#CursosRepository#0" />
               </folding>
             </state>
           </provider>
@@ -119,33 +138,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/edu/ifsp/spo/lg2a2/sge/repositories/AlunosRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+            <state>
+              <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
               <folding>
                 <element signature="method#setUp#0;class#AlunosRepositoryTest#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/repositories/CursosRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="681">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#buscarAlunos#0;class#CursosRepository#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/poom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -167,12 +164,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/entidades/Cursos.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/repositories/CursosRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/edu/ifsp/spo/lg2a2/sge/entidades/CursoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/entidades/Curso.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/entidades/Turma.java" />
-        <option value="$PROJECT_DIR$/src/test/java/br/edu/ifsp/spo/lg2a2/sge/repositories/CursoRepositoryTest.java" />
         <option value="$PROJECT_DIR$/poom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/br/edu/ifsp/spo/lg2a2/sge/repositories/CursoRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/repositories/CursosRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/entidades/Curso.java" />
       </list>
     </option>
   </component>
@@ -211,6 +208,45 @@
               <item name="sge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+              <item name="entidades" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -223,7 +259,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536621438366" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536627590064" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -240,13 +276,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CursoRepositoryTest.adicionarAlunoTest">
+  <component name="RunManager" selected="JUnit.CursoRepositoryTest">
     <configuration name="All in sge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sge" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <dir value="$PROJECT_DIR$/src/teste/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CursoRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.edu.ifsp.spo.lg2a2.sge.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.edu.ifsp.spo.lg2a2.sge.repositories" />
+      <option name="MAIN_CLASS_NAME" value="br.edu.ifsp.spo.lg2a2.sge.repositories.CursoRepositoryTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <dir value="$PROJECT_DIR$/src/teste/java" />
       <method v="2">
@@ -303,9 +356,11 @@
       <item itemvalue="JUnit.All in sge" />
       <item itemvalue="JUnit.CursoRepositoryTest.buscarPorCodigoTest" />
       <item itemvalue="JUnit.CursoRepositoryTest.adicionarAlunoTest" />
+      <item itemvalue="JUnit.CursoRepositoryTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CursoRepositoryTest" />
         <item itemvalue="JUnit.CursoRepositoryTest.adicionarAlunoTest" />
         <item itemvalue="JUnit.CursoRepositoryTest.buscarPorCodigoTest" />
         <item itemvalue="JUnit.All in sge" />
@@ -325,44 +380,51 @@
       <workItem from="1536092122697" duration="233000" />
       <workItem from="1536092835647" duration="2175000" />
       <workItem from="1536163348631" duration="82000" />
-      <workItem from="1536611498216" duration="10092000" />
+      <workItem from="1536611498216" duration="15299000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_sge - 2018.09.04 at 17h 32m 44s.xml">
-      <configuration name="All in sge" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_sge - 2018.09.10 at 17h 50m 57s.xml">
-      <configuration name="All in sge" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_sge - 2018.09.10 at 19h 29m 22s.xml">
-      <configuration name="All in sge" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_sge - 2018.09.10 at 19h 29m 43s.xml">
-      <configuration name="All in sge" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CursoRepositoryTest_buscarPorCodigoTest - 2018.09.10 at 19h 54m 17s.xml">
-      <configuration name="CursoRepositoryTest.buscarPorCodigoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CursoRepositoryTest_adicionarAlunoTest - 2018.09.10 at 20h 09m 08s.xml">
+    <history-entry file="CursoRepositoryTest_adicionarAlunoTest - 2018.09.10 at 20h 24m 23s.xml">
       <configuration name="CursoRepositoryTest.adicionarAlunoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CursoRepositoryTest_adicionarAlunoTest - 2018.09.10 at 20h 10m 06s.xml">
+    <history-entry file="CursoRepositoryTest_adicionarAlunoTest - 2018.09.10 at 20h 26m 38s.xml">
       <configuration name="CursoRepositoryTest.adicionarAlunoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CursoRepositoryTest_adicionarAlunoTest - 2018.09.10 at 20h 11m 20s.xml">
+    <history-entry file="CursoRepositoryTest_adicionarAlunoTest - 2018.09.10 at 20h 36m 17s.xml">
       <configuration name="CursoRepositoryTest.adicionarAlunoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CursoRepositoryTest_adicionarAlunoTest - 2018.09.10 at 20h 40m 42s.xml">
+      <configuration name="CursoRepositoryTest.adicionarAlunoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CursoRepositoryTest_adicionarAlunoTest - 2018.09.10 at 20h 44m 57s.xml">
+      <configuration name="CursoRepositoryTest.adicionarAlunoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CursoRepositoryTest_adicionarAlunoTest - 2018.09.10 at 20h 46m 27s.xml">
+      <configuration name="CursoRepositoryTest.adicionarAlunoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CursoRepositoryTest - 2018.09.10 at 20h 52m 06s.xml">
+      <configuration name="CursoRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CursoRepositoryTest - 2018.09.10 at 21h 37m 36s.xml">
+      <configuration name="CursoRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CursoRepositoryTest - 2018.09.10 at 21h 56m 14s.xml">
+      <configuration name="CursoRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CursoRepositoryTest - 2018.09.10 at 21h 59m 55s.xml">
+      <configuration name="CursoRepositoryTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12582000" />
+    <option name="totallyTimeSpent" value="17789000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4918033" visible="true" weight="0.26096824" />
-      <window_info id="Structure" order="1" sideWeight="0.5081967" side_tool="true" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49144253" visible="true" weight="0.26096824" />
+      <window_info id="Structure" order="1" sideWeight="0.50855744" side_tool="true" visible="true" weight="0.26096824" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -370,8 +432,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -388,7 +450,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" />
-      <window_info active="true" anchor="right" id="Maven Projects" order="8" visible="true" weight="0.32980332" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,15 +463,20 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/br/edu/ifsp/spo/lg2a2/sge/repositories/CursoRepositoryTest.java</url>
-          <line>33</line>
-          <properties class="br.edu.ifsp.spo.lg2a2.sge.repositories.CursoRepositoryTest" method="adicionarAlunoTest">
+          <url>file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/repositories/CursosRepository.java</url>
+          <line>51</line>
+          <properties class="br.edu.ifsp.spo.lg2a2.sge.repositories.CursosRepository" method="existeAlunoNoCurso">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="((java.util.ArrayList)cursos).get(0)" custom="java.util.ArrayList" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml" />
@@ -432,71 +499,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/entidades/Aluno.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/edu/ifsp/spo/lg2a2/sge/repositories/AlunosRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-          <folding>
-            <element signature="method#setUp#0;class#AlunosRepositoryTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/entidades/Curso.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="method#equals#0;class#Curso#0" />
-            <element signature="e#1032#1033#0" expanded="true" />
-            <element signature="e#1067#1068#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/entidades/Turma.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/edu/ifsp/spo/lg2a2/sge/entidades/CursoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/edu/ifsp/spo/lg2a2/sge/repositories/CursoRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -526,17 +528,96 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/poom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/edu/ifsp/spo/lg2a2/sge/repositories/AlunosRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding>
+            <element signature="method#setUp#0;class#AlunosRepositoryTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/edu/ifsp/spo/lg2a2/sge/entidades/CursoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/junit-4.12-sources.jar!/org/junit/internal/runners/statements/RunBefores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#1657#1658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/entidades/Turma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/.ideaLibSources/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/entidades/Curso.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="method#equals#0;class#Curso#0" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/repositories/CursosRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="799">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#buscarAlunos#0;class#CursosRepository#0" />
@@ -544,10 +625,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/poom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/edu/ifsp/spo/lg2a2/sge/repositories/CursoRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        <state relative-caret-position="208">
+          <caret line="40" column="50" lean-forward="true" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

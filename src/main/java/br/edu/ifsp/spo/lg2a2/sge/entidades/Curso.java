@@ -19,6 +19,8 @@ public class Curso {
 		this.codigoCurso = codigoCurso;
 		this.grauDoCurso = grauDoCurso;
 		this.tipoDoCurso = tipoDoCurso;
+		this.turmas = new ArrayList<>();
+		this.turmas.add(turmaIni);
 	}
 	public Collection<Turma> getTurmas() {
 		return this.turmas;

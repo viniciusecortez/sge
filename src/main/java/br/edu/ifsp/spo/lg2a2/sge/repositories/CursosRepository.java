@@ -22,11 +22,11 @@ public class CursosRepository {
         return null;
 	}
 	public CursosRepository(Curso[] cursos){
-	    if(this.cursos == null){
-            this.cursos = new ArrayList<Curso>(Arrays.asList(cursos));
+	    if(CursosRepository.cursos == null){
+            CursosRepository.cursos = new ArrayList<Curso>(Arrays.asList(cursos));
         }else{
 	        for(Curso o : cursos){
-	            this.cursos.add(o);
+	            CursosRepository.cursos.add(o);
             } } }
 
     public CursosRepository(){}
@@ -52,7 +52,9 @@ public class CursosRepository {
 	public boolean existeAlunoNoCurso(String cpf) {
 	    Collection<Aluno> alunos = new ArrayList<>();
         for(Curso curso : cursos){
-            alunos.addAll(curso.buscarTurma());
+            for(Aluno aluno : curso.buscarTurma()){
+                alunos.add(aluno);
+            }
         }
 		for(Aluno aluno : alunos){
 		    if(aluno.getCpf() == cpf){

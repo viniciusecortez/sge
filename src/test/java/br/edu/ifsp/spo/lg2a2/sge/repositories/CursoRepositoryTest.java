@@ -38,7 +38,7 @@ public class CursoRepositoryTest {
         boolean v;
         //Execução
         repository.adicionarAluno(novo,"t001","adsNewGrade");
-        v = repository.existeAlunoNoCurso("30040");
+        v = repository.existeAlunoNoCurso("123456789");
         //Assert
         Assert.assertTrue(v);
 
