@@ -1,28 +1,64 @@
 package br.edu.ifsp.spo.lg2a2.sge;
 
+import br.edu.ifsp.spo.lg2a2.sge.entidades.Aluno;
 import br.edu.ifsp.spo.lg2a2.sge.entidades.Curso;
 import br.edu.ifsp.spo.lg2a2.sge.entidades.SituacaoMatricula;
+import br.edu.ifsp.spo.lg2a2.sge.entidades.Turma;
+import br.edu.ifsp.spo.lg2a2.sge.repositories.AlunosRepository;
 import br.edu.ifsp.spo.lg2a2.sge.vo.ComprovanteMatricula;
 import br.edu.ifsp.spo.lg2a2.sge.vo.DadosAluno;
+import com.sun.jmx.mbeanserver.Repository;
+
+import java.util.Random;
 
 public class ProcessoDeMatricula {
 	
 	private Curso curso;
+
 	
 	public ProcessoDeMatricula(Curso curso) {
 		this.curso = curso;
 	}
 
 	public SituacaoMatricula verificarExistenciaAluno(String cpf) {
-		return null;
+		SituacaoMatricula opcao;
+		AlunosRepository n = new AlunosRepository();
+		if(n.buscarPorCpf(cpf) == null){
+		    opcao = SituacaoMatricula.Novo;
+        }else if(n.buscarPorCpf(cpf).getCurso() != curso){
+		    opcao = SituacaoMatricula.Cadastrado;
+        }else {
+		    opcao = SituacaoMatricula.CadastradoNoCurso;
+        }
+        return opcao;
 	}
 	
-	public ComprovanteMatricula processarMatricula(DadosAluno dados) {
-		return null;
+	public ComprovanteMatricula processarMatricula(DadosAluno dados, String idTurma) {
+	    String prontuario = gerarProntuario();
+	    AlunosRepository repository = new AlunosRepository();
+	    //Criação de um novo aluno
+        Aluno novo = new Aluno(prontuario, dados.getCpf(), dados.getNome(), dados.getEmail());
+        //Vinculando ele a um curso
+        novo.setCurso(curso);
+        //Colocando no repositorio de alunos:
+        repository.adicionar(novo);
+        //Colocando na determinada turma
+        Turma turma = curso.buscarTurma(idTurma);
+        turma.addAluno(novo);
+
+        return new ComprovanteMatricula(novo, turma);
+
 	}
 	
 	private String gerarProntuario() {
-		return null;
+		Random random = new Random();
+		Integer result = random.nextInt(3000000);
+        AlunosRepository n = new AlunosRepository();
+		if(n.buscarPorProntuario(result.toString())!= null){
+		    return gerarProntuario();
+        }else{
+		    return result.toString();
+        }
 	}
 	
 }
