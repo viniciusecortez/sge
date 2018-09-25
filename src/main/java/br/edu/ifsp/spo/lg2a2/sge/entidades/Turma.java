@@ -22,7 +22,8 @@ public class Turma {
 	    this.alunos.add(aluno);
 	    this.idTurma = idTurma;
     }
-	private Collection<Aluno> alunos;
+    public Turma(String idTurma){this.idTurma = idTurma;}
+	private Collection<Aluno> alunos = new ArrayList<>();
 	private String idTurma;
 	public String getIdTurma(){return this.idTurma; }
 	public void addAluno(Aluno aluno){

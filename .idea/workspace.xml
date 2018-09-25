@@ -1,12 +1,236 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff87e57e-9ae5-4b9a-b024-ef51a7f655ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/edu/ifsp/spo/lg2a2/sge/ProcessoDeMatriculaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/entidades/Turma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/entidades/Turma.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/sge$All_in_sge.ic" NAME="All in sge Coverage Results" MODIFIED="1536093106020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537847675217" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="1291926797">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="534" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="534" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
-  <component name="RunManager" selected="JUnit.CursoRepositoryTest">
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/ProcessoDeMatricula.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/vo/ComprovanteMatricula.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/edu/ifsp/spo/lg2a2/sge/ProcessoDeMatriculaTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/entidades/Turma.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+              <folding>
+                <element signature="method#Turma#1;class#Turma#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/br/edu/ifsp/spo/lg2a2/sge/ProcessoDeMatriculaTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/entidades/Turma.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+              <item name="entidades" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sge" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537848454733" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ProcessoDeMatriculaTest.processarMatriculaTest">
     <configuration name="All in sge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sge" />
       <option name="PACKAGE_NAME" value="" />
@@ -72,6 +296,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProcessoDeMatriculaTest.processarMatriculaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.edu.ifsp.spo.lg2a2.sge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.edu.ifsp.spo.lg2a2.sge" />
+      <option name="MAIN_CLASS_NAME" value="br.edu.ifsp.spo.lg2a2.sge.ProcessoDeMatriculaTest" />
+      <option name="METHOD_NAME" value="processarMatriculaTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <dir value="$PROJECT_DIR$/src/teste/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -87,14 +329,204 @@
       <item itemvalue="JUnit.CursoRepositoryTest.buscarPorCodigoTest" />
       <item itemvalue="JUnit.CursoRepositoryTest.adicionarAlunoTest" />
       <item itemvalue="JUnit.CursoRepositoryTest" />
+      <item itemvalue="JUnit.ProcessoDeMatriculaTest.processarMatriculaTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProcessoDeMatriculaTest.processarMatriculaTest" />
         <item itemvalue="JUnit.CursoRepositoryTest" />
         <item itemvalue="JUnit.CursoRepositoryTest.adicionarAlunoTest" />
         <item itemvalue="JUnit.CursoRepositoryTest.buscarPorCodigoTest" />
         <item itemvalue="JUnit.All in sge" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff0a2b51-60bd-4ca0-a5f5-e77fc363eaa7" name="Default Changelist" comment="" />
+      <created>1536092118675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536092118675</updated>
+      <workItem from="1536092122697" duration="233000" />
+      <workItem from="1536092835647" duration="2175000" />
+      <workItem from="1536163348631" duration="82000" />
+      <workItem from="1536611498216" duration="15299000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CursoRepositoryTest_adicionarAlunoTest - 2018.09.10 at 20h 44m 57s.xml">
+      <configuration name="CursoRepositoryTest.adicionarAlunoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CursoRepositoryTest_adicionarAlunoTest - 2018.09.10 at 20h 46m 27s.xml">
+      <configuration name="CursoRepositoryTest.adicionarAlunoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CursoRepositoryTest - 2018.09.10 at 20h 52m 06s.xml">
+      <configuration name="CursoRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CursoRepositoryTest - 2018.09.10 at 21h 37m 36s.xml">
+      <configuration name="CursoRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CursoRepositoryTest - 2018.09.10 at 21h 56m 14s.xml">
+      <configuration name="CursoRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CursoRepositoryTest - 2018.09.10 at 21h 59m 55s.xml">
+      <configuration name="CursoRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CursoRepositoryTest - 2018.09.25 at 00h 54m 54s.xml">
+      <configuration name="CursoRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProcessoDeMatriculaTest_processarMatriculaTest - 2018.09.25 at 01h 06m 08s.xml">
+      <configuration name="ProcessoDeMatriculaTest.processarMatriculaTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProcessoDeMatriculaTest_processarMatriculaTest - 2018.09.25 at 01h 06m 52s.xml">
+      <configuration name="ProcessoDeMatriculaTest.processarMatriculaTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProcessoDeMatriculaTest_processarMatriculaTest - 2018.09.25 at 01h 07m 26s.xml">
+      <configuration name="ProcessoDeMatriculaTest.processarMatriculaTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="984000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4875" visible="true" weight="0.28744328" />
+      <window_info id="Structure" order="1" sideWeight="0.5125" side_tool="true" weight="0.5651491" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3295082" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/ProcessoDeMatricula.java</url>
+          <line>35</line>
+          <properties class="br.edu.ifsp.spo.lg2a2.sge.ProcessoDeMatricula" method="processarMatricula">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/repositories/AlunosRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="method#buscarPorCpf#0;class#AlunosRepository#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/entidades/Curso.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+            <element signature="e#1313#1314#0" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1608#1609#0" expanded="true" />
+            <element signature="e#1663#1664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/entidades/Aluno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+          <folding>
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/vo/ComprovanteMatricula.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/entidades/Turma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+          <folding>
+            <element signature="method#Turma#1;class#Turma#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/ProcessoDeMatricula.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/edu/ifsp/spo/lg2a2/sge/ProcessoDeMatriculaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
