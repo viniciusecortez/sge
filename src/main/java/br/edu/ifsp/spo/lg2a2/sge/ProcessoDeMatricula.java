@@ -7,7 +7,6 @@ import br.edu.ifsp.spo.lg2a2.sge.entidades.Turma;
 import br.edu.ifsp.spo.lg2a2.sge.repositories.AlunosRepository;
 import br.edu.ifsp.spo.lg2a2.sge.vo.ComprovanteMatricula;
 import br.edu.ifsp.spo.lg2a2.sge.vo.DadosAluno;
-import com.sun.jmx.mbeanserver.Repository;
 
 import java.util.Random;
 
@@ -34,20 +33,29 @@ public class ProcessoDeMatricula {
 	}
 	
 	public ComprovanteMatricula processarMatricula(DadosAluno dados, String idTurma) {
-	    String prontuario = gerarProntuario();
-	    AlunosRepository repository = new AlunosRepository();
-	    //Criação de um novo aluno
-        Aluno novo = new Aluno(prontuario, dados.getCpf(), dados.getNome(), dados.getEmail());
-        //Vinculando ele a um curso
-        novo.setCurso(curso);
-        //Colocando no repositorio de alunos:
-        repository.adicionar(novo);
-        //Colocando na determinada turma
-        Turma turma = curso.buscarTurma(idTurma);
-        turma.addAluno(novo);
+	    switch (verificarExistenciaAluno(dados.getCpf())){
+            case Novo:
+                String prontuario = gerarProntuario();
+                AlunosRepository repository = new AlunosRepository();
+                //Criação de um novo aluno
+                Aluno novo = new Aluno(prontuario, dados.getCpf(), dados.getNome(), dados.getEmail());
+                //Vinculando ele a um curso
+                novo.setCurso(curso);
+                //Colocando no repositorio de alunos:
+                repository.adicionar(novo);
+                //Colocando na determinada turma
+                Turma turma = curso.buscarTurma(idTurma);
+                turma.addAluno(novo);
+                return new ComprovanteMatricula(novo, turma);
+            case Cadastrado:
+                System.err.println("Aluno já cadestrado!");
+                break;
+            case CadastradoNoCurso:
+                System.err.println("Aluno já cadastrado nesse curso!!!!!!!!!!");
+                break;
 
-        return new ComprovanteMatricula(novo, turma);
-
+        }
+        return null;
 	}
 	
 	private String gerarProntuario() {
