@@ -17,10 +17,12 @@ public class CursosRepository {
 		    if(c.getCodigoCurso() == codigo){
 		        return c;
             }
-
         }
         return null;
 	}
+
+
+
 	public CursosRepository(Curso[] cursos){
 	    if(CursosRepository.cursos == null){
             CursosRepository.cursos = new ArrayList<Curso>(Arrays.asList(cursos));
@@ -40,21 +42,26 @@ public class CursosRepository {
 	}
 	
 	public Collection<Aluno> buscarAlunos(String codigoCurso){
-		Collection<Aluno> alunosDoCurso ;
+		Collection<Aluno> alunosDoCurso = new ArrayList<>();
 		for(Curso o: cursos){
-		    if(o.getCodigoCurso() == codigoCurso){
-		        return o.buscarTurma();
-            }
+		    for(String alunos : o.listaDeIdTurma()){
+		        if(o.getCodigoCurso() == codigoCurso){
+		            alunosDoCurso.addAll( o.buscarAlunosNaTurma(alunos));
+                }
+		    }
+		    return alunosDoCurso;
         }
 		return null;
 	}
 	
-	public boolean existeAlunoNoCurso(String cpf) {
+	public boolean existeAlunoNoCurso(String cpf, String idCurso) {
 	    Collection<Aluno> alunos = new ArrayList<>();
+	    if(null == this.buscarPorCodigo(idCurso).getCodigoCurso()) return false;
+
         for(Curso curso : cursos){
-            for(Aluno aluno : curso.buscarTurma()){
-                alunos.add(aluno);
-            }
+      		for(String idTurmas : curso.listaDeIdTurma()){
+      			alunos.addAll(curso.buscarAlunosNaTurma(idTurmas));
+			}
         }
 		for(Aluno aluno : alunos){
 		    if(aluno.getCpf() == cpf){

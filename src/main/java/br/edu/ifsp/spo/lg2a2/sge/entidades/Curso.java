@@ -1,7 +1,9 @@
 package br.edu.ifsp.spo.lg2a2.sge.entidades;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.LinkedList;
 
 public class Curso {
 	private String nomeDoCurso;
@@ -58,15 +60,18 @@ public class Curso {
         }
         return null;
     }
-    public Collection<Aluno> buscarTurma(){
-	    //Todos
-        Collection<Aluno> result = new ArrayList<>();
-        for(Turma o : turmas){
-            for(Aluno k : o.getAlunos()){
-                result.add(k);
-            }
-        }
-        return result;
+    public Collection<Aluno> buscarAlunosNaTurma(String idTurma){
+        return buscarTurma(idTurma).getAlunos();
     }
+    public Collection<String> listaDeIdTurma(){
+		Collection<String> aux = new ArrayList<>();
+		for(Turma o : turmas){
+			aux.add(o.getIdTurma());
+		}
+
+
+		return aux;
+
+	}
 
 }
