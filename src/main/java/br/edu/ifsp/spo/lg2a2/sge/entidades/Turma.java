@@ -27,6 +27,8 @@ public class Turma {
 	public String getIdTurma(){return this.idTurma; }
 	public void addAluno(Aluno aluno){
 		alunos.add(aluno);
+		AlunosRepository n = new AlunosRepository();
+		if(n.buscarPorCpf(aluno.getCpf()) == null) n.adicionar(aluno);
 	}
 	public Collection<Aluno> getAlunos(){
 		return this.alunos;
