@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class CursoTest {
     @Test
-    private void equalsTest(){
+    public void equalsTest(){
         //Configuração
         Curso c1 = new Curso("Analise e desenvolvimento de Sistemas","adsNewgrade","Tecnologo", "Graduação", new Turma(new ArrayList<>(), ""));
         Curso c2 = new Curso("Analise e desenvolvimento de Sistemas","adsNewgrade","Tecnologo", "Graduação", new Turma(new ArrayList<>(),""));
@@ -15,8 +15,8 @@ public class CursoTest {
         Assert.assertTrue(c1.equals(c2));
     }
     @Test
-    private void bucarTurma(){
-        Curso c = new Curso("Analise e desenvolvimento de Sistemas", "AdsNewGrade", "Tecnologo", "Graduação", new Turma((Aluno) null, "Ads1sem"));
+    public void bucarTurma(){
+        Curso c = new Curso("Analise e desenvolvimento de Sistemas", "AdsNewGrade", "Tecnologo", "Graduação", new Turma(new Aluno("XXXX", "XXXXX", "XXXXX","XXXXX"), "Ads1sem"));
         Assert.assertNotNull(c.buscarTurma("Ads1sem"));
     }
 }
