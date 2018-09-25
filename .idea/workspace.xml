@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff87e57e-9ae5-4b9a-b024-ef51a7f655ba" name="Default Changelist" comment="" />
+    <list default="true" id="ff87e57e-9ae5-4b9a-b024-ef51a7f655ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/ProcessoDeMatricula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/ProcessoDeMatricula.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,12 +26,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="766" />
+          <entry key="java" value="768" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="766" />
+          <entry key="JAVA" value="768" />
         </counts>
       </usages-collector>
     </session>
@@ -39,45 +41,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/ProcessoDeMatricula.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+            <state relative-caret-position="1020">
+              <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#357#358#0" expanded="true" />
                 <element signature="e#382#383#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/vo/ComprovanteMatricula.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/edu/ifsp/spo/lg2a2/sge/ProcessoDeMatriculaTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/entidades/Turma.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-              <folding>
-                <element signature="method#Turma#1;class#Turma#0" />
               </folding>
             </state>
           </provider>
@@ -213,7 +182,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537849104648" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537849574530" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -356,15 +325,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CursoRepositoryTest_adicionarAlunoTest - 2018.09.10 at 20h 44m 57s.xml">
-      <configuration name="CursoRepositoryTest.adicionarAlunoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CursoRepositoryTest_adicionarAlunoTest - 2018.09.10 at 20h 46m 27s.xml">
-      <configuration name="CursoRepositoryTest.adicionarAlunoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CursoRepositoryTest - 2018.09.10 at 20h 52m 06s.xml">
-      <configuration name="CursoRepositoryTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CursoRepositoryTest - 2018.09.10 at 21h 37m 36s.xml">
       <configuration name="CursoRepositoryTest" configurationId="JUnit" />
     </history-entry>
@@ -386,15 +346,24 @@
     <history-entry file="ProcessoDeMatriculaTest_processarMatriculaTest - 2018.09.25 at 01h 07m 26s.xml">
       <configuration name="ProcessoDeMatriculaTest.processarMatriculaTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ProcessoDeMatriculaTest_processarMatriculaTest - 2018.09.25 at 01h 18m 14s.xml">
+      <configuration name="ProcessoDeMatriculaTest.processarMatriculaTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_sge - 2018.09.25 at 01h 18m 27s.xml">
+      <configuration name="All in sge" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_sge - 2018.09.25 at 01h 24m 45s.xml">
+      <configuration name="All in sge" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1449000" />
+    <option name="totallyTimeSpent" value="2089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4875" visible="true" weight="0.28744328" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4875" visible="true" weight="0.28744328" />
       <window_info id="Structure" order="1" sideWeight="0.5125" side_tool="true" weight="0.5651491" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -403,8 +372,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -473,13 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/vo/ComprovanteMatricula.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/entidades/Turma.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -500,10 +462,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/vo/ComprovanteMatricula.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ifsp/spo/lg2a2/sge/ProcessoDeMatricula.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+        <state relative-caret-position="1020">
+          <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#357#358#0" expanded="true" />

@@ -60,7 +60,7 @@ public class ProcessoDeMatricula {
 	
 	private String gerarProntuario() {
 		Random random = new Random();
-		Integer result = random.nextInt(3000000);
+		Integer result = random.nextInt(10000000);
         AlunosRepository n = new AlunosRepository();
 		if(n.buscarPorProntuario(result.toString())!= null){
 		    return gerarProntuario();
