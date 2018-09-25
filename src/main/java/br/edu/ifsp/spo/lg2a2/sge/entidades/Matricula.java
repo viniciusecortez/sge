@@ -11,7 +11,7 @@ public class Matricula {
         this.prontuario = prontuario;
         this.aluno = aluno;
     }
-    
+
     public void adicionarTurma(Turma turma){
         if(turmas == null){
             turmas = new ArrayList<>();
