@@ -6,6 +6,7 @@ public class Aluno {
 	private String cpf;
 	private String nome;
 	private String email;
+	private Curso curso;
 	
 	public String getProntuario() {
 		return prontuario;
@@ -19,15 +20,23 @@ public class Aluno {
 	public String getEmail() {
 		return email;
 	}
-	
-	public Aluno(String prontuario, String cpf, String nome, String email) {
+
+    public Curso getCurso() {
+        return curso;
+    }
+
+    public Aluno(String prontuario, String cpf, String nome, String email) {
 		this.prontuario = prontuario;
 		this.cpf = cpf;
 		this.nome = nome;
 		this.email = email;
 	}
-	
-	@Override
+
+    public void setCurso(Curso curso) {
+        this.curso = curso;
+    }
+
+    @Override
 	public String toString() {
 		return "<prontuario: " 
 				+ this.getProntuario() 

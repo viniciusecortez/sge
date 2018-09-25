@@ -30,6 +30,14 @@ public class AlunosRepository {
 		
 		return resultado;
 	}
+	public Aluno buscarPorProntuario(String prontuario){
+		for(Aluno o: alunos){
+			if(o.getProntuario() == prontuario){
+				return o;
+			}
+		}
+		return null;
+	}
 	
 	public void adicionar(Aluno aluno) {
 		AlunosRepository.alunos.add(aluno);
