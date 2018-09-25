@@ -13,10 +13,11 @@ import java.util.Random;
 public class ProcessoDeMatricula {
 	
 	private Curso curso;
-
+    private DadosAluno dados;
 	
-	public ProcessoDeMatricula(Curso curso) {
+	public ProcessoDeMatricula(Curso curso, DadosAluno dados) {
 		this.curso = curso;
+		this.dados = dados;
 	}
 
 	public SituacaoMatricula verificarExistenciaAluno(String cpf) {
@@ -32,7 +33,7 @@ public class ProcessoDeMatricula {
         return opcao;
 	}
 	
-	public ComprovanteMatricula processarMatricula(DadosAluno dados, String idTurma) {
+	public ComprovanteMatricula processarMatricula(String idTurma) {
 	    switch (verificarExistenciaAluno(dados.getCpf())){
             case Novo:
                 String prontuario = gerarProntuario();
